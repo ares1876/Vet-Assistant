@@ -1,0 +1,22 @@
+#main-content{
+    margin: 20px auto;
+    width: 1000px;
+    text-align: center;
+}
+.bllok-qendror{
+    display: inline-block;
+}
+.zhvendosur{
+    margin: 0 350px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
