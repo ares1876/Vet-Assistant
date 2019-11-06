@@ -21,7 +21,17 @@ system. This way the vet has a clearer vision on which medicament is spent faste
 # Prerequites
 1. You need to have at least JDK8 installed in your machine, in order for the application to run. You can [click here](https://www3.ntu.edu.sg/home/ehchua/programming/howto/JDK_Howto.html)
 for reading a tutorial on how to install JDK in Windows and/or Ubuntu.
-2. This Application needs [Apache Tomcat](http://tomcat.apache.org/) to be installed in your machine. That is because the application is built
-based on Spring and Spring MVC, and Spring MVC in itself uses the Java Servlets and Java Server Pages Techonology. Tomcat makes possible
-for the Servlets to function normally. Here you can follow a [Tomcat Installation Tutorial](https://www.youtube.com/watch?v=pKMgr8uNvGM)
+2. This Application needs [Apache Tomcat](http://tomcat.apache.org/) to be installed in your machine. Tomcat is used to run the Java
+Servelets. Since the Application is Web Based and is built using Spring MVC and Spring MVC in itself uses the Java Servlets and Java Server Pages Techonology, Tomcat must be installed and the application must run on Tomcat. Here you can follow a [Tomcat Installation Tutorial](https://www.youtube.com/watch?v=pKMgr8uNvGM)
 3. In order to run the project easier, it is reccomended to use [IntelliJ IDE](https://www.jetbrains.com/idea/download/#section=windows)
+
+# Running Application
+There are two ways for running the Application. 
+  1. The first and easier way is to open the full project with Intellij IDE (since that is the IDE I used during development). You configure the IDE to run the Application on Tomcat and Click Run. The default Web Browser will open the Application.
+  2. Second way is to deploy the application via Maven on Tomcat. For this you must have [Maven configured and installed](https://www.theserverside.com/tutorial/How-to-install-Maven-and-build-apps-with-the-mvn-command-line) installed in your machine. You can follow [this tutorial](https://www.baeldung.com/tomcat-deploy-war) on how to deploy a web application on Tomcat via Maven and also other ways.
+  
+  #Built with
+  * [JAVA 8](https://www.java.com/en/download/) - The programming language used
+  * [Spring](https://spring.io/projects/spring-framework) - Java Framework used
+  * [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) - Web Framework based on Spring
+  * [Maven](https://maven.apache.org/) - Build Automation tool 
